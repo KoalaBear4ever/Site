@@ -1,35 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="stylesheet.css">
 	<title>Главная</title>
 </head>
 <body>
 
 	<div class="header">
-		<div class="logo">
-			<img width="100px" height="100px" src="http://itemshop.com.ua/images/categories/13.png" alt="logo">
+		<div id="logo" class="headerBlocks">
+			<img width="100px" height="100px" src="Images/logo.jpg" alt="logo">
 		</div>
-	 	<div class="forms">
+
+		<div id=main class="headerBlocks">
+			<h5>Добро пожаловать на новостной портал "Посиделки"!</h5>
+		</div>
+
+	 	<div id="forms" class="headerBlocks">
 	 		<button class="login">Sign In</button>
 	 		<button class="registration">Sign Up</button>
 	 	</div>
 	</div>
 	
 	<div id="navbar">
+
 		<a class="active" href="index.html">Главная</a>
-		<a href="news.html">Новости</a>
 		<a href="toDo.html">Список дел</a>
 	  	<a href="javascript:void(0)">Форум(в разработке)</a>
 	  	<a href="techSup.html">Тех.поддержка</a>
+
 	</div>
 
 	<div class="content">
 		<div class="article">
+
+			<h4 align="center">Состав команды Na'Vi поменялся</h4>
+
+			<div class="artData">
+				<img src="https://pic.sport.ua/images/news/0/10/62/orig_412428.jpg" width="200px" height="200px" alt="фото">
+			</div>
+
+			<div class="artData">
+				<p>В связи с неудовлетворительными результатами на последних турнирах.<br>
+					Киберспортивный клуб ua Natus Vincere совместно с игроками в CS:GO принял решение о переформировании команды.</p>
+				<p id="time"></p>
+				<a href="#" >Читать полностью</a>
+			</div>
+		</div>
+
+		<div class="article">
+
 			<h3 align="center">Обновление сайта v1.0</h3>
 			<div class="content">Какие-то обновнления</div>
-		</div> 
+		</div>
+
 	</div>
 
 	<script src="script.js"></script>

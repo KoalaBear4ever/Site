@@ -1,5 +1,5 @@
-/* default: */
 
+/* default: */
 body {
   margin: 0;
   font-size: 28px;
@@ -11,27 +11,23 @@ body {
   padding: 30px;
 }
 
-.header:after{
+.header:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.forms{
-  float: right;
-  width: 50%;
+.headerBlocks {
+  float: left;
+  width: 33.33%;
+}
+
+#forms {
   text-align: right;
 }
 
-.logo{
-  float: left;
-  width: 50%;
-}
-
-.img {
-  width: 200px;
-  height: 200px;
-  display: inline;
+#main {
+  text-align: center;
 }
 
 .login {
@@ -102,6 +98,27 @@ body {
   padding-top: 60px;
 }
 
+.article {
+  width: 100%;
+  border: solid;
+  margin-bottom: 10px;
+}
+
+.artData {
+  float: left;
+  font-size: 15px;
+}
+
+.article:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content a {
+
+}
+
 /* Тех. поддержка */
 
 input[type=text], select, textarea {
@@ -109,8 +126,7 @@ input[type=text], select, textarea {
   padding: 12px;  
   border: 1px solid #ccc; 
   border-radius: 4px;
-  box-sizing: border-box; 
-  margin-top: 6px; 
+  box-sizing: border-box;margin-top: 6px;
   margin-bottom: 16px; 
   resize: vertical ;
 }
@@ -136,10 +152,6 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-.article {
-  width: 100%;
-  border: solid;
-}
 
 
 /* Список дел: */
